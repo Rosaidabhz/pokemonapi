@@ -1,0 +1,414 @@
+.container_portada{
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    height: 35rem;
+    padding: 0;
+    gap: 4rem;
+
+}
+.imgpokebola {  
+    margin-top: 60px;
+    width: 724px;
+    height: 446px;
+    margin-left: 4rem;
+}
+
+.titlebienvenidos{
+    position: absolute;
+    margin-top: 30px;
+    position: center;  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.35em;
+    color: #000000;  
+    margin-left: 40%;
+}
+
+.img-list{
+    width: 100px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.card-1 {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  flex-direction: column;
+  margin-top: 110px;
+
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 110px;
+}  
+
+.titlepokemon {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #ba95d1;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.titlepokemon-2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #ffaf8f;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.titlepokemon-3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #6493EB;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.titlepokemon-4 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #A7B723;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.titlepokemon-5 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #CEB34E;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.titlepokemon-6 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 95px;
+  align-items: flex-start;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background: #70559B;
+  font-family: 'Poppins';
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.cuadro-1{
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 200px;
+  height: 120px;
+  background: #FFFFFF;
+  border: 1px solid #DEA8FF;
+  border-radius: 8px;
+  font-size: 12px;
+
+
+
+}
+.cuadro-2{
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 200px;
+  height: 120px;
+  font-size: 12px;
+  background: #FFFFFF;
+  border: 1px solid #fa7d35;
+  border-radius: 8px;
+  
+}
+.cuadro-3{
+
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 200px;
+  height: 120px;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid #6493EB;
+  border-radius: 8px;
+  
+}
+.cuadro-4{
+
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px;
+    width: 200px;
+    height: 120px;
+    font-size: 12px;
+    background: #FFFFFF;
+    border: 1px solid #A7B723;
+    border-radius: 8px;
+    
+}
+.cuadro-5{
+
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 200px;
+  height: 120px;
+  font-size: 12px;
+  background: #FFFFFF;
+  border: 1px solid #CEB34E;
+  border-radius: 8px;
+  
+}
+.cuadro-6{
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 200px;
+  height: 120px;;
+  font-size: 12px;
+  background: #FFFFFF;
+  border: 1px solid #70559B;
+  border-radius: 8px;
+  
+}
+
+.datos{
+font-style: normal;
+font-size: 12px;
+line-height: 30px;
+display: flex;
+letter-spacing: 0.78em;
+color: #140808;
+font-family: 'Poppins';
+margin-left: 5px;
+width: 40px;
+height: 30px;
+
+}
+.datostexto{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #000000;
+width: 50px;
+height: 30px;
+font-weight: 700;
+
+}
+
+.resultado-1{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(146, 49, 92);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-2{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(146, 64, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-3{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(49, 59, 146);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-4{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(96, 146, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-5{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(146, 123, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-6{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(123, 49, 146);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+
+@media screen and (max-width: 600px) {
+  .container_portada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px !important;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    height: 60rem;
+  }
+  .imgpokebola {  
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0;
+}
+ 
+.titlebienvenidos{
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.35em;
+  color: #000000; 
+  margin-left: auto;
+}
+.card-1 {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 10px;
+}  
+}
+@media screen and (max-width: 423px) {
+  .container_portada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px !important;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    height: 100rem;
+  }
+  .imgpokebola {  
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0;
+}
+ 
+.titlebienvenidos{
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.35em;
+  color: #000000; 
+  margin-left: auto;
+}
+.card-1 {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 10px;
+}  
+}

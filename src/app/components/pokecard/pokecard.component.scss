@@ -1,0 +1,130 @@
+.container-search{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    margin-top: 10px;
+ 
+ }
+ .pokecard{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     background-color: #C0D6B5;
+     height: 520px;
+     width: 500px;
+     margin-left: 25rem;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     border-radius: 30px;
+ }
+ .image{
+     height: 200px;
+     width: 200px;
+     z-index: 3;
+ 
+ 
+ }
+ img{
+     width: 200px;
+     height: 200px;
+     z-index: 3;
+ 
+ 
+ 
+ }
+ .pokeball{
+     position: absolute;
+     width: 220px;
+     height: 200px;
+     margin-left: 200px;
+     margin-bottom: 180px;
+     z-index: 1;
+ 
+ }
+ input {
+     border: 0;
+     border-radius: 5px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     width: 50%;
+     height: 50px;
+     font-size: 16px;
+     align-self: center;
+     margin: 10px;
+     padding-left: 10px;
+     color: #000;
+     
+   }
+ 
+ .namepokemon{
+     margin-top: 20px;
+     color: #ffffff;
+     font-family: 'poppins';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 25px;
+     display: flex;
+     align-items: center;
+     letter-spacing: 0.38em;
+ 
+ }
+ 
+ .search{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: #fff;
+ border-radius: 2px;
+ justify-content: center;
+ margin-top: 20px;
+ }
+ .cardtext{
+ height: 250px;
+ width: 400px;
+ left: 95px;
+ top: 417px;
+ background: #FFFFFF;
+ border-radius: 30px;
+ color: #212121;    
+ z-index: 2;
+ 
+ }
+ 
+ .text{
+ font-family: 'Poppins';
+ font-style: normal;
+ font-size: 20px;
+ line-height: 26px; 
+ margin-left: 50px;
+ margin-top: 1px;  
+ }
+ 
+ @media screen and (max-width: 600px) {
+    
+     .imgpokebola {  
+       margin-top: 60px;
+       width: 100%;
+       margin-left: 0;
+     }
+     
+     .pokecard{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+         margin-left: 3rem;
+         margin-top: 1rem;
+         margin-right: 2rem;
+         max-width: 80%;   
+      }
+      .cardtext{
+         max-width: 80%;}
+     
+     .pokeball{
+         max-width: 30%;
+     
+         }
+ 
+ 
+ }
+ 
+ 
